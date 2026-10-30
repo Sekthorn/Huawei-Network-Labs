@@ -10,3 +10,4 @@ Comprehensive set of conceptual and multi-choice questions modelled after the Hu
 4. Switching Technologies: VLANs, Trunks, STP, RSTP, MSTP, Eth-Trunk
 5. Network Services & Security: DHCP, ACL, NAT, AAA, IPsec, USG Firewalls
 6. WLAN Technologies: CAPWAP, AP discovery, 802.11 standards
+

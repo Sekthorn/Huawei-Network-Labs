@@ -10,3 +10,4 @@ Broken lab topologies provided as challenge files. Your task is to diagnose the 
 - Trunk `allow-pass vlan` omitting necessary transit VLANs
 - ACL rule numbering / default implicit deny blocking legitimate traffic
 - NAT outbound ACL matching improper source subnets
+

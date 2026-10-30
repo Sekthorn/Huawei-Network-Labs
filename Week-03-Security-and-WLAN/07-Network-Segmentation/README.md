@@ -8,3 +8,4 @@ Implement network segmentation strategies using VLANs, subnets, VRFs, and securi
 - Traffic containment and minimizing broadcast domains.
 - Port isolation (`port-isolate enable`) on Layer 2 switches.
 - Inter-zone firewall inspection between tiers.
+

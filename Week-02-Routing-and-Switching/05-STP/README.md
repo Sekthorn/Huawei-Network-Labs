@@ -31,3 +31,4 @@ Spanning Tree Protocol prevents Layer 2 switching loops and broadcast storms whi
 [SW1] display stp brief
 [SW1] display stp
 ```
+

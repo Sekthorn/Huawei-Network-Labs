@@ -7,3 +7,4 @@ Simulated full-length mock examinations covering both theoretical multiple-choic
 - **Section A**: 60-minute Theory Assessment (Single choice, Multiple choice, True/False)
 - **Section B**: 90-minute Hands-On Practical Topology Deployment in eNSP
 - **Scoring Rubric & Solutions**: Step-by-step scoring breakdown and answer keys
+

@@ -34,3 +34,4 @@ Inter-VLAN routing enables communication between different VLANs using either Ro
 [L3-SW-Vlanif20] ip address 192.168.20.1 24
 [L3-SW-Vlanif20] quit
 ```
+

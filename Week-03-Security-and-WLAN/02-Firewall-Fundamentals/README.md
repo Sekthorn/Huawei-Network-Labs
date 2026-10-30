@@ -30,3 +30,4 @@ Learn Huawei USG series firewall fundamentals, security zones, and security poli
 [USG-policy-security-rule-trust_to_untrust] action permit
 [USG-policy-security-rule-trust_to_untrust] quit
 ```
+

@@ -31,3 +31,4 @@ Link aggregation bundles multiple physical Ethernet links into a logical interfa
 ```text
 [SW1] display eth-trunk 1
 ```
+

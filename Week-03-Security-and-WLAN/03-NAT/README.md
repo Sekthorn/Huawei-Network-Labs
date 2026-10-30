@@ -30,3 +30,4 @@ NAT maps private IPv4 addresses to public IPv4 addresses, conserving public IP a
 <Huawei> display nat session all
 <Huawei> display nat outbound
 ```
+

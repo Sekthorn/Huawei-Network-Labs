@@ -11,3 +11,4 @@ Reference tables and IP address planning templates for enterprise network topolo
 | R2 | GE0/0/1 | 10.1.1.2 | 255.255.255.252 | N/A | WAN to R1 |
 | SW1 | Vlanif 10 | 192.168.10.1 | 255.255.255.0 | N/A | Management / Gateway |
 | PC1 | NIC | 192.168.10.10 | 255.255.255.0 | 192.168.10.1 | Client Host |
+
