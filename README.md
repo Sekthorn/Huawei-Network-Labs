@@ -6,7 +6,7 @@
 An open-source hands-on lab repository crafted to take students and engineers from Huawei networking fundamentals to competition-grade mastery.
 
 [![Huawei VRP](https://img.shields.io/badge/Huawei-VRP%20v5%20%2F%20v8-cf0a2c?style=for-the-badge&logo=huawei&logoColor=white)](https://e.huawei.com)
-[![Simulator eNSP](https://img.shields.io/badge/Simulator-Huawei%20eNSP-007ACC?style=for-the-badge&logo=virtualbox&logoColor=white)](Resources/Network-Diagrams/)
+[![Simulator eNSP](https://img.shields.io/badge/Simulator-Huawei%20eNSP-007ACC?style=for-the-badge&logo=virtualbox&logoColor=white)](Resources/eNSP-Installation-Guide/)
 [![Roadmap](https://img.shields.io/badge/Curriculum-4%20Weeks-2ea44f?style=for-the-badge)](#-curriculum-roadmap)
 [![Competition](https://img.shields.io/badge/Huawei%20ICT-Competition%20Track-E0245E?style=for-the-badge)](Week-04-Competition-Practice/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-F5A623?style=for-the-badge)](LICENSE)
@@ -15,6 +15,7 @@ An open-source hands-on lab repository crafted to take students and engineers fr
 <br/>
 
 [📚 Curriculum Roadmap](#-curriculum-roadmap) • 
+[🛠️ eNSP Setup Guide](Resources/eNSP-Installation-Guide/) • 
 [📂 Lab Architecture](#-repository-structure) • 
 [⚡ Quick Start](#-quick-start-guide) • 
 [💡 CLI Cheatsheet](Resources/Huawei-CLI-Cheatsheet/) • 
@@ -131,6 +132,7 @@ Huawei-Network-Labs/
 │   └── Learning-Progress.md                   # Interactive checklist & study log
 │
 ├── Resources/
+│   ├── eNSP-Installation-Guide/               # Complete setup, dependencies & troubleshooting
 │   ├── Huawei-CLI-Cheatsheet/                 # Fast command lookup tables
 │   ├── Network-Diagrams/                      # Topology blueprints & sketches
 │   └── IP-Addressing-Tables/                  # Addressing scheme templates
@@ -174,10 +176,18 @@ Huawei-Network-Labs/
 
 ## ⚡ Quick Start Guide
 
-### 1. Prerequisites
-- **Huawei eNSP** (Enterprise Network Simulation Platform) v1.3.00 or later
-- **VirtualBox** (v5.2.x recommended for eNSP compatibility)
-- **Wireshark** & **WinPcap**
+> [!IMPORTANT]
+> **First time installing Huawei eNSP?**
+> Huawei eNSP requires exact versions of **Oracle VM VirtualBox (v5.2.44)**, **WinPcap (v4.1.3)**, and specific Windows 10/11 configuration tweaks (disabling Memory Integrity / Core Isolation & Hyper-V) to prevent Error Code 40 and the infinite `###` router boot bug.
+> 
+> 📖 **Follow the step-by-step [eNSP Installation & Troubleshooting Guide](Resources/eNSP-Installation-Guide/)** before installing!
+
+### 1. Prerequisites Checklist
+- [x] **WinPcap 4.1.3** (or Npcap with WinPcap API-compatible mode enabled)
+- [x] **Wireshark** (v3.x / v4.x)
+- [x] **Oracle VM VirtualBox 5.2.44** *(Mandatory - do not use VirtualBox 6.x or 7.x)*
+- [x] **Huawei eNSP** (V100R003C00SPC100)
+- [x] Device base images registered via `eNSP > Menu > Tools > Register Device`
 
 ### 2. Clone the Repository
 ```bash
